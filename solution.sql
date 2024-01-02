@@ -8,7 +8,7 @@ SELECT * FROM salespeople;
 -- Task: Write a query that shows all the information about all salespeople
 -- from the 'Northwest' region.
 
--- REPLACE THIS WITH YOUR QUERY
+SELECT * FROM salespeople WHERE region = 'Northwest';
 
 -- Problem 3:
 -- Task: Write a query that shows just the emails of the salespeople from
