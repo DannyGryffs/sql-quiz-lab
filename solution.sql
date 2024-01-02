@@ -26,13 +26,13 @@ SELECT first_name, last_name, email FROM salespeople WHERE region = 'Northwest';
 -- Task: Write a query that shows the common name of melons that cost more
 -- than $5.00.
 
-SELECT * FROM melons WHERE price > 5;
+SELECT common_name FROM melons WHERE price > 5;
 
 -- Problem 6:
 -- Task: Write a query that shows the common name and price for all
 -- watermelons that cost more than $5.00.
 
--- REPLACE THIS WITH YOUR QUERY
+SELECT common_name FROM melons WHERE price > 5 AND melon_type = 'Watermelon';
 
 -- Problem 7:
 -- Task: Write a query that displays all common names of melons that
