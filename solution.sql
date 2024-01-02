@@ -56,13 +56,13 @@ SELECT DISTINCT region FROM salespeople;
 -- Task: Write a query that shows the emails of all salespeople from
 -- both the Northwest and Southwest regions.
 
--- REPLACE THIS WITH YOUR QUERY
+SELECT email FROM salespeople WHERE region = 'Northwest' OR region = 'Southwest';
 
 -- Problem 11:
 -- Task: Write a query that shows the emails of all salespeople from
 -- both the Northwest and Southwest regions, this time using an 'IN' clause.
 
--- REPLACE THIS WITH YOUR QUERY
+SELECT email FROM salespeople WHERE region IN  ('Northwest', 'Southwest');
 
 -- Problem 12:
 -- Task: Write a query that shows the email, given name, and surname of
