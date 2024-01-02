@@ -2,7 +2,7 @@
 -- Task: Write a query that shows all the information about all the salespeople
 -- in the database. Use a basic select query.
 
--- REPLACE THIS WITH YOUR QUERY
+SELECT * FROM salespeople;
 
 -- Problem 2:
 -- Task: Write a query that shows all the information about all salespeople
